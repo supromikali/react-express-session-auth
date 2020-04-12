@@ -1,5 +1,8 @@
 # react-express-session-auth
-This app is an oversimplified example of the Node/React authentication workflow using express-session. 
+This app is an oversimplified example of the Node/React authentication workflow using express-session and has 2 main files in it: 
+
+- [server.js](https://github.com/supromikali/react-express-session-auth/blob/master/server.js) - server part of the app (using Express) - 23 lines of code
+- [src/index.js](https://github.com/supromikali/react-express-session-auth/blob/master/src/index.js) - React part of the app (using create-react-app) - 10 lines of code
 
 Authentication has a few steps:
 1. user should login by sending credentials (username/password) to the server `/api/login` endpoint using POST method (in this app even credentials are not sent, just an api call is being made)
