@@ -5,7 +5,7 @@ This app is an oversimplified example of the Node/React authentication workflow 
 - [src/index.js](https://github.com/supromikali/react-express-session-auth/blob/master/src/index.js) - React part of the app (using create-react-app) - 10 lines of code
 
 Authentication has a few steps:
-1. user should login by sending credentials (username/password) to the server `/api/login` endpoint using POST method (in this app even credentials are not sent, just an api call is being made)
+1. user should click `login` button to trigger credentials sending (username/password) to the server `/api/login` endpoint using POST method (in this app even credentials are not sent, just an api call is being made)
 2. server endpoint `/api/login` being reached triggers user data saving to a server session (using express-session) AND send success response back to client with success message in response body (for example just OK text) and session cookies (note the `connect.sid` on the screenshot below)
 
 ![Screenshot from 2020-04-12 18-50-49](https://user-images.githubusercontent.com/22643362/79073332-a1fd1580-7cee-11ea-8277-ae0631a1cd2b.png)
